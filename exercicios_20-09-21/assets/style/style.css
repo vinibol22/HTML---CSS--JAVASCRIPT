@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+body{
+    background: rgba(72,61,139);
+    color: white;
+    font-family: 'Crimson Text', serif;
+}
+.center{
+    display: flex;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+
+.menu li{
+    display:inline;
+    padding:30px;
+    text-decoration: none;
+    justify-content:center;
+    
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 50px;
+}
+.menu li a:hover{
+    color:grey;
+}
+.br-50{
+    border-radius:50%;
+}
+.wh{
+    width:500px;
+    height:300px;
+}
+#buttom{
+    background: rgba(75,0,130);
+    color: white;
+}
+.imgc{
+    display: flex;
+
+ height: 13rem;
+    width:20rem;
+    
+}
+#workspace{
+    display: flex;
+    justify-content: center;
+
+}
+footer{
+ display: flex;
+}
+.rodape{
+    justify-content: center;
+ 
+}
+img{
+ 
+    width: 5rem; 
+    margin-left: 5rem,5rem;
+}
+.space{
+    width: 2%;
+    height:2%
+}
+
